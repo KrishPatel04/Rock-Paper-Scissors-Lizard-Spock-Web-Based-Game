@@ -1,0 +1,500 @@
+/*
+.wow {
+  width: 100px;
+}
+
+*/
+
+/* Entire side menu CSS */
+#sidebarMenu { /*https://www.w3schools.com/css/css_positioning.asp*/
+  position: fixed; /* Sidebar Menu stays in place when scrolling*/
+  /*Position TOP-LEFT*/
+  top: 0; /* change? purpose? */
+  left: 0; /* change? purpose? */
+  height: 100%;
+  width: 200px;
+  background-color: #999999;
+  font-size: 20px;
+  
+}
+
+#sidebarMenu a {
+  /* https://www.w3schools.com/cssref/pr_text_text-decoration.php */
+  text-decoration: underline wavy hotpink 2px;
+}
+
+#sidebarMenu a:link {
+  color: #FFFFFF;
+}
+
+#sidebarMenu a:visited {
+  color: #9999999
+}
+
+#sidebarMenu a:hover {
+  /* https://www.w3schools.com/css/css_pseudo_classes.asp */
+  /* https://www.w3schools.com/cssref/pr_text_text-decoration.php */
+  text-decoration: underline wavy #6CABDD 2px;
+  background-color: #666666
+}
+
+/* '<ul>' list part CSS */
+#sidebarMenuList {
+  margin: 10px; /* Edit */
+  padding: 20px; /* Edit */
+  color: #000000;
+  /*https://www.w3schools.com/cssref/pr_text_text-decoration.php*/
+  list-style: none; /* change? purpose? */
+}
+
+#sidebarMenu a:active {
+  color: #32dc32;
+}
+
+#ai {
+  list-style-image: url('Multimedia/Images/homePicSidebarMenu.png');
+}
+
+#aii {
+  list-style-image: url('Multimedia/Images/starSidebarMenu.png');
+
+}
+
+#aiii {
+    list-style-image: url('Multimedia/Images/gameSidebarMenu.jfif');
+
+}
+
+#aiv {
+  list-style-image: url('Multimedia/Images/rewardsPicSidebarMenu.jpg')
+  
+}
+
+#av {
+    list-style-image: url('Multimedia/Images/gameSidebarMenu.jfif');
+    
+
+}
+
+#avi {
+  list-style-image: url('Multimedia/Images/tooCoolForYou.png')
+}
+
+.sidebarMenuWord {
+  color: white; 
+}
+
+
+#backToTop { /* rulesRPSLSpHeaderPic */
+  width: 15%;
+}
+
+#ourMission {
+  margin-left: 350px;
+  margin-right: 250px;
+  line-height: 200%;
+  font-size: 19px;
+}
+
+#fightPic {
+  width: 18%
+}
+
+#meetStaffParagraph {
+  margin-left: 350px;
+  margin-right: 250px
+}
+
+#docPic {
+  width: 24%
+}
+
+.staffBackground:hover {
+  background-color: #888888;
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-right: 13px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+
+}
+
+.staffBackground {
+  line-height: 200%
+}
+
+.my-hr3 {
+  border: none;
+  border-top: 5px dotted #DDDDDD;
+  width: 89%;
+ /* explain auto */
+  height: 10px;
+  margin-left: 7%;
+}
+
+#my-hr3 {
+  border: none;
+  border-top: 2px solid black;
+  width: 89%;
+ /* explain auto */
+  height: 10px;
+  margin-left: 7%;
+}
+
+#start-of-staff-intro {
+  text-align: center;
+  margin-left: 5%;
+  color: #6CABDD;
+  
+}
+
+#start-of-staff-intro:hover {
+  color: hotpink;
+}
+
+.name {
+  color: #FF336A;
+  text-shadow: 5px 5px 25px #0066FF;
+}
+
+.name:hover {
+  color: #0066FF;
+  text-shadow: 5px 5px 25px #FF336A;
+}
+
+#rock-pic {
+  width: 14%;
+}
+
+#paper-pic {
+  width: 16%;
+}
+
+#scissor-pic {
+  width: 13%;
+}
+#lizard-pic {
+  width: 14%;
+}
+
+#spock-pic {
+  width: 15%;
+}
+
+#battlesBegin {
+  width: 20%;
+}
+
+#homeImageCaption {
+  color: black;
+  text-decoration: none;
+  margin-left: 5%;
+}
+
+
+
+#home-PHONE {
+  font-weight: bolder;
+  font-size: 100%;
+  line-height: 150%;
+  
+}
+
+#home-MAP {
+  font-weight: bolder;
+  font-size: 100%;
+  line-height: 150%;
+
+}
+
+#slideshowImage {
+  width: 30%;
+  margin-left: 5%
+}
+
+#slideshowImage:hover {
+  width: 35%;
+  margin-left: 5%
+}
+
+.back-to-top {
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #DDDDDD;
+  color: #FF336F;
+  font-family: fantasy;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer; /*https://www.w3schools.com/cssref/pr_class_cursor.php*/
+  margin-left: 7%;
+  text-decoration: none; /* Why is this not working. 😐😐 */
+}
+
+.back-to-top:hover {
+  color: white;
+  background-color: #000000;
+}
+
+#pickUs {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  margin: 1000 auto;
+/*  color: #555555; */
+  margin-left: 5%;
+}
+
+#meetStaffBackground {
+  background-color: #EFEFEF
+}
+
+#our-family {
+  color: #6CABDD;
+}
+
+#our-family:hover {
+  color: darkblue
+}
+
+#meetStaff {
+  margin-left: 100px;
+  width: auto;
+  height: 3125%;
+}
+
+#meetStaff:hover {
+  background-color: #00324E
+  background: lightblue;
+  border-radius:  5px;
+}
+
+
+
+#u-tag-edits{
+  border-bottom: 4px dashed darkgrey;
+}
+
+#RPSLSp-introPic {
+  width: 25%;
+}
+
+#darkMode-button {
+  background-color: #333333;
+  color: #FFFFFF; 
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 7px 15px; 
+  font-size: 12px; 
+  border-radius: 5px;
+  transition: background-color 0.8s ease-in-out; /*  https://www.w3schools.com/css/css3_transitions.asp */
+}
+
+#darkMode-button:hover {
+  background-color: #444444
+}
+
+#darkMode-button:active {
+  transform: translateY(2px);
+  background-color: #222222;
+}
+
+#game1Title {
+  margin-right: 2.5%;
+}
+
+#rounds {
+  text-align: center;
+  width: 15%;
+  height: 15%;
+  font-size: 25px;
+  background: hotpink;
+  color: #EFEFEF;
+  border-radius: 15px;
+}
+
+h3{
+text-align:center
+  
+}
+#sheldor{
+  width:35%;
+  text-align:center;
+  display:block;
+  margin:0 auto;
+}
+
+.yourChoiceRock-pic {
+  width: 275px;
+}
+
+#results {
+  text-decoration:underline;
+  text-decoration-color: #00008B;
+  
+}
+
+
+#RPSLSpmargin {
+  margin-left: 5%;
+}
+
+.game-switch {
+  border: 2px solid pink;
+  border-radius: 10px;
+}
+
+.switch input[type="checkbox"] {
+  height: 30px;
+  width: 30px;
+}
+
+.switch:hover {
+  background-color: blueviolet;
+}
+
+
+
+/* START FIRE WORKS CSS HERE */
+/* https://alvaromontoro.com/blog/68002/creating-a-firework-effect-with-css */
+@keyframes firework { /*sets up the animations*/
+  0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
+  50% { width: 0.5vmin; opacity: 1; }
+  100% { width: var(--finalSize); opacity: 0; }
+}
+
+/*initial firework colors, size, opacity, etc -- also serves as parent to child fireworks */
+.firework,
+.firework::before,
+.firework::after
+{
+  --initialSize: 0.5vmin;
+  --finalSize: 45vmin;
+  --particleSize: 0.2vmin;
+  --color1: yellow;
+  --color2: khaki;
+  --color3: white;
+  --color4: lime;
+  --color5: gold;
+  --color6: mediumseagreen;
+  --y: -30vmin;
+  --x: -50%;
+  --initialY: 60vmin;
+  content: "";
+  animation: firework 2s 25;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, var(--y));
+  width: var(--initialSize);
+  aspect-ratio: 1;
+  background: /* gradients on the background so fireworks show up on screen */
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 50% 0%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 50%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 50% 100%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 0% 50%,
+    
+    /* bottom right */
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 80% 90%,
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 95% 90%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 90% 70%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 60%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 55% 80%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 70% 77%,
+    
+    /* bottom left */
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 22% 90%,
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 45% 90%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 70%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 10% 60%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 31% 80%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 28% 77%,
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 13% 72%,
+    
+    /* top left */
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 80% 10%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 95% 14%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 90% 23%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 100% 43%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 85% 27%,
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 77% 37%,
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 60% 7%,
+    
+    /* top right */
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 22% 14%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 45% 20%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 34%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 10% 29%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 31% 37%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 28% 7%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 13% 42%
+    ;
+  background-size: var(--initialSize) var(--initialSize);
+  background-repeat: no-repeat;
+}
+
+
+.firework::before {
+  --x: -50%;
+  --y: -50%;
+  --initialY: -50%;
+  transform: translate(-50%, -50%) rotate(40deg) scale(1.3) rotateY(40deg);
+}
+
+.firework::after {
+  --x: -50%;
+  --y: -50%;
+  --initialY: -50%;
+  transform: translate(-50%, -50%) rotate(170deg) scale(1.15) rotateY(-30deg);
+}
+
+/* causes 2nd firework to show (on on the left) */
+.firework:nth-child(2) {
+  --x: 30vmin;
+}
+
+.firework:nth-child(2),
+.firework:nth-child(2)::before,
+.firework:nth-child(2)::after {
+  --color1: pink;
+  --color2: violet;
+  --color3: fuchsia;
+  --color4: orchid;
+  --color5: plum;
+  --color6: lavender;  
+  --finalSize: 40vmin;
+  left: 30%;
+  top: 60%;
+  animation-delay: -0.25s;
+}
+
+/* causes 3rd firework to show (on on the left) */
+.firework:nth-child(3) {
+  --x: -30vmin;
+  --y: -50vmin;
+}
+
+.firework:nth-child(3),
+.firework:nth-child(3)::before,
+.firework:nth-child(3)::after {
+  --color1: cyan;
+  --color2: lightcyan;
+  --color3: lightblue;
+  --color4: PaleTurquoise;
+  --color5: SkyBlue;
+  --color6: lavender;
+  --finalSize: 35vmin;
+  left: 70%;
+  top: 60%;
+  animation-delay: -0.4s;
+}
+
+
+/* END FIRE WORDS CSS HERE */
+
+
+#imwinning {
+  
+}
+#youlose {
+  width: 32%;
+}
